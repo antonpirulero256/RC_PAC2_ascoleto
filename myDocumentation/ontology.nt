@@ -1,0 +1,501 @@
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2002/07/owl#sameAs
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasCity
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasCity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterest> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasCity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Service> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasCity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Venue> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasCity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#City> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasCity> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an Venu to City" .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasCity> <http://www.w3.org/2000/01/rdf-schema#label> "hasCity" .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasLocation
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Place> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#GeoCoordinate> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasPointOfInterestType
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasPointOfInterestType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasPointOfInterestType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterest> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasPointOfInterestType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterestType> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasTransportServiceType
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasTransportServiceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasTransportServiceType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportServiceType> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasTransportServiceType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportServiceType> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasVenue
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasVenue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasVenue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Event> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasVenue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Venue> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasVenue> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an Event to the Venue where it takes place." .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasVenue> <http://www.w3.org/2000/01/rdf-schema#label> "hasVenue" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AccommodationId
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AccommodationId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AccommodationId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Accomodation> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AccommodationId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AttractionId
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AttractionId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AttractionId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Attraction> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AttractionId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AveragePrice
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AveragePrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AveragePrice> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FoodEstablishment> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AveragePrice> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Company
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Company> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportService> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Company> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#CostAverage
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#CostAverage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#CostAverage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportService> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#CostAverage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FoodEstablishmentId
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FoodEstablishmentId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FoodEstablishmentId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FoodEstablishment> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FoodEstablishmentId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Latitud
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Latitud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Latitud> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#GeoCoordinate> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Latitud> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Longitud
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Longitud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Longitud> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#GeoCoordinate> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Longitud> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Name
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PricePerNight
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PricePerNight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PricePerNight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Accomodation> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PricePerNight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Rating
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Rating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterest> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Rating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#StarRating
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#StarRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#StarRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Accomodation> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#StarRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportID
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportService> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#capacity
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#capacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#capacity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Venue> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#capacity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#capacity> <http://www.w3.org/2000/01/rdf-schema#comment> "capacity of Venue" .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#capacity> <http://www.w3.org/2000/01/rdf-schema#label> "Capacity" .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#cityId
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#cityId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#cityId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#City> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#cityId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#cityId> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifier of the City" .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#cityId> <http://www.w3.org/2000/01/rdf-schema#label> "CityId" .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#eventDate
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#eventDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#eventDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Event> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#eventDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#eventDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date on which the Event occurs." .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#eventDate> <http://www.w3.org/2000/01/rdf-schema#label> "EventDate" .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#eventId
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#eventId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#eventId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Event> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#eventId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#eventId> <http://www.w3.org/2000/01/rdf-schema#comment> "Unique integer identifier for each Event instance." .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#eventId> <http://www.w3.org/2000/01/rdf-schema#label> "EventId" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Accomodation
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Accomodation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Accomodation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterest> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Attraction
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Attraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Attraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterest> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Bar
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Bar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Bar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FoodEstablishment> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Beach
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Beach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Beach> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Attraction> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#BoutiqueHotel
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#BoutiqueHotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#BoutiqueHotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Accomodation> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#BudgetFriendlyRestaurant
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#BudgetFriendlyRestaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#BudgetFriendlyRestaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Restaurant> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#BudgetFriendlyRestaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "rule BudgetFriendlyRestaurant" .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#BudgetFriendlyRestaurant> <http://www.w3.org/2000/01/rdf-schema#label> "BudgetFriendlyRestaurant" .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Cafe
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Cafe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Cafe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FoodEstablishment> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#City
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Place> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Concert
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Concert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Concert> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Event> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Conference
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Conference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Conference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Event> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Event
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Venue> .
+_:genid1 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasVenue> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Festival
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Festival> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Festival> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Event> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FoodEstablishment
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FoodEstablishment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FoodEstablishment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterest> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#GeoCoordinate
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#GeoCoordinate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Hostel
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Hostel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Hostel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Accomodation> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Hotel
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Hotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Accomodation> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Monument
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Monument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Monument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Attraction> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Museum
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Museum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Museum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Attraction> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Park
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Park> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Attraction> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Place
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Place> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#GeoCoordinate> .
+_:genid2 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasLocation> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterest
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterest> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Place> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterest> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#City> .
+_:genid3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasCity> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterest> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterestType> .
+_:genid4 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasPointOfInterestType> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterestType
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterestType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PremiumAccommodation
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PremiumAccommodation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PremiumAccommodation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Accomodation> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Resort
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Resort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Resort> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Accomodation> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Restaurant
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Restaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Restaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FoodEstablishment> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Service
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#City> .
+_:genid5 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasCity> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TopRatedPointOfInterest
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TopRatedPointOfInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TopRatedPointOfInterest> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterest> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportService
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Service> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportServiceType> .
+_:genid6 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasTransportServiceType> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportServiceType
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportServiceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Venue
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Venue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Venue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Place> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Venue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#City> .
+_:genid7 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasCity> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#CheapBistro
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#CheapBistro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#CheapBistro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Restaurant> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#CheapBistro> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AveragePrice> "15.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#CheapBistro> <http://www.w3.org/2000/01/rdf-schema#comment> "BudgetFriendlyRestaurant" .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#CheapBistro> <http://www.w3.org/2000/01/rdf-schema#label> "CheapBistro" .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FestivalToledo2025
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FestivalToledo2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FestivalToledo2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Festival> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FestivalToledo2025> <http://www.w3.org/2002/07/owl#sameAs> <https://es.dbpedia.org/page/Trofeo_Feria_de_Toledo> .
+<https://es.dbpedia.org/page/Trofeo_Feria_de_Toledo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FestivalToledo2025> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasVenue> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#ZocodoverVenue> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FestivalToledo2025> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#eventDate> "20250523"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# https://es.dbpedia.org/page/Trofeo_Feria_de_Toledo
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#GeoCoord_Toledo
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#GeoCoord_Toledo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#GeoCoord_Toledo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#GeoCoordinate> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#GeoCoord_Toledo> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Latitud> "39.8628"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#GeoCoord_Toledo> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Longitud> "-4.0273"^^<http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#HotelVistaToledo
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#HotelVistaToledo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#HotelVistaToledo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Hotel> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#HotelVistaToledo> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasCity> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Toledo> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#HotelVistaToledo> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasLocation> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#GeoCoord_Toledo> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#HotelVistaToledo> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PricePerNight> "160.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#HotelVistaToledo> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Rating> "4.7"^^<http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Toledo
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Toledo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Toledo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#City> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Toledo> <http://www.w3.org/2002/07/owl#sameAs> <https://dbpedia.org/page/Toledo,_Spain> .
+<https://dbpedia.org/page/Toledo,_Spain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Toledo> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Name> "Toledo" .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Toledo> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#cityId> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# https://dbpedia.org/page/Toledo,_Spain
+# 
+# http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#ZocodoverVenue
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#ZocodoverVenue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#ZocodoverVenue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Venue> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#ZocodoverVenue> <http://www.w3.org/2002/07/owl#sameAs> <https://dbpedia.org/page/Plaza_de_Zocodover,_Toledo> .
+<https://dbpedia.org/page/Plaza_de_Zocodover,_Toledo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#ZocodoverVenue> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasCity> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Toledo> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#ZocodoverVenue> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasLocation> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#GeoCoord_Toledo> .
+<http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#ZocodoverVenue> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#capacity> "5000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# https://dbpedia.org/page/Plaza_de_Zocodover,_Toledo
+# 
+# https://dbpedia.org/page/Plaza_de_Zocodover,_Toledo
+# 
+# https://dbpedia.org/page/Toledo,_Spain
+# 
+# https://es.dbpedia.org/page/Trofeo_Feria_de_Toledo
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#poi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid19 <http://www.w3.org/2003/11/swrl#body> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid21 .
+_:genid21 <http://www.w3.org/2003/11/swrl#arguments> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#r> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> .
+<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid25 .
+_:genid25 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#r> .
+_:genid25 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#poi> .
+_:genid25 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Rating> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid27 .
+_:genid27 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#poi> .
+_:genid27 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterest> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid19 <http://www.w3.org/2003/11/swrl#head> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid29 .
+_:genid29 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#poi> .
+_:genid29 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TopRatedPointOfInterest> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid30 <http://www.w3.org/2003/11/swrl#body> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid32 .
+_:genid32 <http://www.w3.org/2003/11/swrl#arguments> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#p> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> .
+<http://www.w3.org/2003/11/swrlb#lessThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid36 .
+_:genid36 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#p> .
+_:genid36 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid36 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AveragePrice> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38 .
+_:genid38 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid38 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Restaurant> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid30 <http://www.w3.org/2003/11/swrl#head> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid40 .
+_:genid40 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid40 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#BudgetFriendlyRestaurant> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid8 <http://www.w3.org/2003/11/swrl#body> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid10 .
+_:genid10 <http://www.w3.org/2003/11/swrl#arguments> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "150"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#p> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+<http://www.w3.org/2003/11/swrlb#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid14 .
+_:genid14 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#p> .
+_:genid14 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid14 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PricePerNight> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid16 .
+_:genid16 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid16 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Accomodation> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid8 <http://www.w3.org/2003/11/swrl#head> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid18 .
+_:genid18 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid18 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PremiumAccommodation> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
