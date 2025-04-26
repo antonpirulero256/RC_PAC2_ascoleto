@@ -1,0 +1,1115 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Venue",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Venue"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#ZocodoverVenue",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "ZocodoverVenue"
+      }
+    } ],
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Hotel",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#HotelVistaToledo",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "HotelVistaToledo"
+      }
+    } ],
+    "id" : "5",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Beach",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Beach"
+    },
+    "id" : "15",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Festival",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Festival"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FestivalToledo2025",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "FestivalToledo2025"
+      }
+    } ],
+    "id" : "19",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FoodEstablishment",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FoodEstablishment"
+    },
+    "subClasses" : [ "34", "33", "30" ],
+    "id" : "31",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#GeoCoordinate",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GeoCoordinate"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#GeoCoord_Toledo",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "GeoCoord_Toledo"
+      }
+    } ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Hostel",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hostel"
+    },
+    "id" : "45",
+    "superClasses" : [ "1" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "38", "3", "2" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "47",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "25",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#City",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "City"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Toledo",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Toledo"
+      }
+    } ],
+    "id" : "28",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Museum",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Museum"
+    },
+    "id" : "60",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PremiumAccommodation",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PremiumAccommodation"
+    },
+    "id" : "62",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Restaurant",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Restaurant"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#CheapBistro",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+      "comment" : {
+        "undefined" : "BudgetFriendlyRestaurant"
+      },
+      "labels" : {
+        "IRI-based" : "CheapBistro",
+        "undefined" : "CheapBistro"
+      }
+    } ],
+    "subClasses" : [ "36" ],
+    "id" : "30",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterestType",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PointOfInterestType"
+    },
+    "id" : "65"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Place",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Place"
+    },
+    "subClasses" : [ "3", "2", "28" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#BoutiqueHotel",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BoutiqueHotel"
+    },
+    "id" : "71",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Event",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event"
+    },
+    "subClasses" : [ "19", "18", "13" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TopRatedPointOfInterest",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TopRatedPointOfInterest"
+    },
+    "id" : "73",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Conference",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Conference"
+    },
+    "id" : "18",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Concert",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concert"
+    },
+    "id" : "13",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportService",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TransportService"
+    },
+    "id" : "7",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Monument",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Monument"
+    },
+    "id" : "64",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#BudgetFriendlyRestaurant",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BudgetFriendlyRestaurant",
+      "undefined" : "BudgetFriendlyRestaurant"
+    },
+    "comment" : {
+      "undefined" : "rule BudgetFriendlyRestaurant"
+    },
+    "id" : "36",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Resort",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resort"
+    },
+    "id" : "76",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Park",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Park"
+    },
+    "id" : "69",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Cafe",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cafe"
+    },
+    "id" : "33",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "8",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "67",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Service",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Service"
+    },
+    "subClasses" : [ "7" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "21",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "92",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportServiceType",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TransportServiceType"
+    },
+    "id" : "49"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PointOfInterest",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PointOfInterest"
+    },
+    "subClasses" : [ "1", "73", "16", "31" ],
+    "id" : "2",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Bar",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bar"
+    },
+    "id" : "34",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Accomodation",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Accomodation"
+    },
+    "subClasses" : [ "62", "76", "71", "45", "5" ],
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Attraction",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Attraction"
+    },
+    "subClasses" : [ "60", "15", "69", "64" ],
+    "id" : "16",
+    "superClasses" : [ "2" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#CostAverage",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "CostAverage"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Longitud",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "Longitud"
+    },
+    "domain" : "10",
+    "attributes" : [ "datatype" ],
+    "id" : "9"
+  }, {
+    "range" : "14",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "range" : "14",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AccommodationId",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "AccommodationId"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "20"
+  }, {
+    "range" : "4",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#eventId",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "eventId",
+      "undefined" : "EventId"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "Unique integer identifier for each Event instance."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "24"
+  }, {
+    "range" : "14",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "4",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "range" : "31",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "31",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "30",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "38",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Rating",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "Rating"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Company",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "Company"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#eventDate",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "eventDate",
+      "undefined" : "EventDate"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "Date on which the Event occurs."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasTransportServiceType",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "hasTransportServiceType"
+    },
+    "domain" : "49",
+    "attributes" : [ "object" ],
+    "id" : "48"
+  }, {
+    "range" : "31",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#FoodEstablishmentId",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "FoodEstablishmentId"
+    },
+    "domain" : "31",
+    "attributes" : [ "datatype" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#TransportID",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "TransportID"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AveragePrice",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "AveragePrice"
+    },
+    "domain" : "31",
+    "attributes" : [ "datatype" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasCity",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "hasCity",
+      "undefined" : "hasCity"
+    },
+    "domain" : "46",
+    "comment" : {
+      "undefined" : "Relates an Venu to City"
+    },
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "range" : "16",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Latitud",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "Latitud"
+    },
+    "domain" : "10",
+    "attributes" : [ "datatype" ],
+    "id" : "66"
+  }, {
+    "range" : "16",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "16",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "range" : "16",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "1",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "range" : "1",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "1",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "1",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "2",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "range" : "2",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "1",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "2",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#cityId",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "cityId",
+      "undefined" : "CityId"
+    },
+    "domain" : "28",
+    "comment" : {
+      "undefined" : "Identifier of the City"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasLocation",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasLocation"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#PricePerNight",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "PricePerNight"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasPointOfInterestType",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "hasPointOfInterestType"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#capacity",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "capacity",
+      "undefined" : "Capacity"
+    },
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "capacity of Venue"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#hasVenue",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasVenue",
+      "undefined" : "hasVenue"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "Relates an Event to the Venue where it takes place."
+    },
+    "attributes" : [ "object" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#AttractionId",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "92",
+    "label" : {
+      "IRI-based" : "AttractionId"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#Name",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "Name"
+    },
+    "domain" : "47",
+    "attributes" : [ "datatype" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11#StarRating",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2025/3/untitled-ontology-11",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "StarRating"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "94"
+  } ]
+}
